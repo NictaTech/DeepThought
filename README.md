@@ -136,6 +136,7 @@ keybase = "<keybase_username>"
 linkedin = "<linkedin_username>"
 stackoverflow = "<stackoverflow_userid>"
 twitter = "<twitter_username>"
+youtube = "<youtube_channel>"
 
 
 # To add google analytics
