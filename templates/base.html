@@ -30,6 +30,12 @@
   <link href="https://cdn.jsdelivr.net/npm/mapbox-gl@2.1.1/dist/mapbox-gl.min.css" rel="stylesheet" />
   <link href="{{ get_url(path='deep-thought.css') }}" rel="stylesheet" />
 
+
+
+  {% if config.generate_feed %}
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ config.base_url }}/{{ config.feed_filename }}">
+  {% endif %}
+
   {% block custom_css %}
   {% endblock %}
 
